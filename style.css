@@ -622,6 +622,7 @@ background: linear-gradient(90deg, rgba(65,214,146,1) 0%, rgba(21,206,255,1) 100
 	font-family: 'Quicksand', sans-serif;
 	letter-spacing: 1px;
 	font-weight: 500;
+	color: white;
 }
 /* end footer*/
 
@@ -1014,7 +1015,8 @@ background: linear-gradient(90deg, rgba(65,214,146,1) 0%, rgba(21,206,255,1) 100
 		align-items: center;
 	  justify-content: center;
 	  flex-direction: column;
-	  max-width: 290px;
+	  width: 290px;
+	  min-width: 290px;
     min-height: 393px;
 		
 		
