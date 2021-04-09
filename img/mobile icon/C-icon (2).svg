@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91" height="91" viewBox="0 0 91 91">
+  <g id="C-icon" transform="translate(-18255 -1863)">
+    <rect id="Rectangle_104" data-name="Rectangle 104" width="91" height="91" transform="translate(18255 1863)" fill="#fff" opacity="0"/>
+    <g id="c-program" transform="translate(18273.756 1878.282)">
+      <path id="Path_42" data-name="Path 42" d="M80.985,61.186a4.782,4.782,0,0,0,.689-2.311V33.031a4.8,4.8,0,0,0-.689-2.311L54.6,45.953,80.985,61.186Z" transform="translate(-27.526 -15.49)" fill="#3949ab" fill-rule="evenodd"/>
+      <path id="Path_43" data-name="Path 43" d="M30.12,91.345,52.5,78.423a4.823,4.823,0,0,0,1.656-1.75L27.775,61.44,1.39,76.673a4.823,4.823,0,0,0,1.656,1.75L25.429,91.345a5.209,5.209,0,0,0,4.691,0Z" transform="translate(-0.701 -30.977)" fill="#283593" fill-rule="evenodd"/>
+      <path id="Path_44" data-name="Path 44" d="M53.459,15.235a4.823,4.823,0,0,0-1.656-1.75L29.419.563a5.209,5.209,0,0,0-4.691,0L2.345,13.485A5.2,5.2,0,0,0,0,17.546V43.39A4.8,4.8,0,0,0,.689,45.7L27.074,30.468,53.459,15.235Z" transform="translate(0 -0.005)" fill="#5c6bc0" fill-rule="evenodd"/>
+      <path id="Path_45" data-name="Path 45" d="M36.249,61.139A18.049,18.049,0,1,1,51.879,34.06l-7.81,4.522a9.025,9.025,0,1,0,0,9.025l7.81,4.522a18.123,18.123,0,0,1-15.629,9.01Z" transform="translate(-9.175 -12.626)" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

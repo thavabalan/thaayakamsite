@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131" height="131" viewBox="0 0 131 131">
+  <g id="GoogleAnalitics-icon" transform="translate(-18963 -2298)">
+    <rect id="Rectangle_118" data-name="Rectangle 118" width="131" height="131" transform="translate(18963 2298)" fill="#fff" opacity="0"/>
+    <g id="google_analytics-icon" transform="translate(18998 2328)">
+      <path id="Path_70" data-name="Path 70" d="M47.273,11.462V65.223c0,6.016,4.154,9.367,8.553,9.367,4.073,0,8.553-2.851,8.553-9.367V11.869a8.563,8.563,0,0,0-8.553-8.96A8.693,8.693,0,0,0,47.273,11.462Z" transform="translate(-2.472 -2.909)" fill="#f9ab00"/>
+      <g id="Group_60" data-name="Group 60" transform="translate(0 27.288)">
+        <path id="Path_71" data-name="Path 71" d="M27.273,35.826V62.3c0,6.016,4.154,9.367,8.553,9.367,4.073,0,8.553-2.851,8.553-9.367V36.233a8.563,8.563,0,0,0-8.553-8.96A8.693,8.693,0,0,0,27.273,35.826Z" transform="translate(-4.873 -27.273)" fill="#e37400"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="8.553" cy="8.553" r="8.553" transform="translate(0 27.288)" fill="#e37400"/>
+      </g>
+    </g>
+  </g>
+</svg>
