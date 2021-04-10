@@ -496,6 +496,7 @@ margin-right: auto;
 }
 .email-text{
 	padding: 62.2px;
+	padding-bottom: 49px;
 }
 .email-text h1{
 	font-family: 'Poppins', sans-serif;
@@ -618,7 +619,7 @@ background: linear-gradient(90deg, rgba(65,214,146,1) 0%, rgba(21,206,255,1) 100
 	
 }
 .copyright p{
-	font-size: 1.063rem !important;
+	font-size: 0.625rem !important;
 	font-family: 'Quicksand', sans-serif;
 	letter-spacing: 1px;
 	font-weight: 500;
@@ -1027,7 +1028,7 @@ width: 100%;
 	font-size:1.5rem;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
-	text-align: left;
+	text-align: center;
 }
 .contact-form{
 	flex: 100%;
@@ -1565,7 +1566,7 @@ section#services{
 	}
 	.innerdiv h1 {
 		
-		font-size: 2.25rem;
+		font-size:1.875rem;
 		color: rgb(107, 107, 107);
 		padding-top: 12px;
 	}
@@ -1623,14 +1624,14 @@ section#services{
     background-image: url(./img/BG\ image.svg) ;
 }
 #hero .cta {
-    margin-bottom: 283.44px;
-	min-width: 171px;
-	min-height: 53px;
-	font-size: 1.375rem;
-	word-wrap: normal;
-	padding: 11px 15px;
-	font-family: 'Roboto Slab', serif;
-	font-weight: bold
+	margin-bottom: 283.44px;
+    min-width: 171px;
+    min-height: 53px;
+    font-size: 0.875rem;
+    word-wrap: normal;
+    padding: 17px 40px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
 }
 .service-top p {
     font-size: 0.875rem;
