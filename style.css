@@ -2237,7 +2237,7 @@ section#services{
 
 @media only screen and (max-width:414px) {
 	#hero{
-		background-image: url(./img/iPhone7\ Screen\ 375x667.png) ;
+		background-image: url(./img/web\ cover\ resized\ 2021\ mobile\ -iphone\ 7\ plus.png) ;
 	}
 	#hero h1 {
 		display: block;
@@ -2259,7 +2259,7 @@ section#services{
 		word-wrap: normal;
 		padding: 17px 40px;
 		font-weight: 500;
-		margin-top: 79px;
+		margin-top: 70Spx;
 		
 	}
 }
