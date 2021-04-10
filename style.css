@@ -247,6 +247,10 @@ margin-right: auto;
     position: absolute;
     bottom: 0;
     left: 165px;
+	display: inline;
+}
+#scrollm {
+    display: none;
 }
 #photocopyright{
     position: absolute;
@@ -1499,9 +1503,13 @@ section#services{
 
 	/*end what we do*/
 	#scroll {
+		display: none;
+	}
+	#scrollm{
 		position: absolute;
 		bottom: 29.2px;
 		left: 178px;
+		display: inline;
 	}
 	#photocopyright{
 		position: absolute;
@@ -1609,7 +1617,7 @@ section#services{
     padding-top: 46px;
 }
 .footer-menu .footer-link:nth-child(1) {
-    padding-top: 85px;
+    padding-top: 50px;
 }
 .headerlogo {
     max-width: 176px;
@@ -1630,8 +1638,8 @@ section#services{
     font-size: 0.875rem;
     word-wrap: normal;
     padding: 17px 40px;
-    font-family: 'Roboto Slab', serif;
     font-weight: 500;
+	margin-top:79px;
 }
 .service-top p {
     font-size: 0.875rem;
@@ -1991,6 +1999,29 @@ section#services{
 	#hero{
 		background-image: url(./img/iPhone7\ Screen\ 375x667.png) ;
 	}
+	#hero h1 {
+		display: block;
+		width: fit-content;
+		font-size: 1.625rem;
+		position: relative;
+		color: white;
+		font-family: 'Roboto Slab', serif;
+		font-weight: medium;
+		letter-spacing: 5px;
+		bottom: 27px;
+		text-shadow: 0px 0px 6px rgb(0 229 255 / 55%);
+	}
+	#hero .cta {
+		margin-bottom: 200.44px;
+		min-width: 171px;
+		min-height: 53px;
+		font-size: 0.875rem;
+		word-wrap: normal;
+		padding: 17px 40px;
+		font-weight: 500;
+		margin-top: 79px;
+		
+	}
 }
 @media only screen and (max-width: 320px) {
 	#hero{
@@ -2020,14 +2051,13 @@ section#services{
 		letter-spacing: 1px;
 	}
 	#hero .cta {
-		margin-bottom: 160px;
+		margin-bottom: 110px;
 		min-width: 171px;
 		min-height: 53px;
-		font-size: 1.375rem;
+		font-size: 0.875rem;
 		word-wrap: normal;
-		padding: 11px 15px;
-		font-family: 'Roboto Slab', serif;
-		font-weight: bold;
+		padding: 17px 40px;
+		font-weight: 500;
 	}
 	#scroll {
 		position: absolute;
@@ -2202,5 +2232,34 @@ section#services{
 {
 	#hero .cta{
 		margin-bottom: 100px;
+	}
+}
+
+@media only screen and (max-width:414px) {
+	#hero{
+		background-image: url(./img/iPhone7\ Screen\ 375x667.png) ;
+	}
+	#hero h1 {
+		display: block;
+		width: fit-content;
+		font-size: 1.625rem;
+		position: relative;
+		color: white;
+		font-family: 'Roboto Slab', serif;
+		font-weight: medium;
+		letter-spacing: 5px;
+		bottom: 27px;
+		text-shadow: 0px 0px 6px rgb(0 229 255 / 55%);
+	}
+	#hero .cta {
+		margin-bottom: 140px;
+		min-width: 171px;
+		min-height: 53px;
+		font-size: 0.875rem;
+		word-wrap: normal;
+		padding: 17px 40px;
+		font-weight: 500;
+		margin-top: 79px;
+		
 	}
 }
