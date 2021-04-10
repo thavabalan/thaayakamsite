@@ -285,7 +285,7 @@ margin-right: auto;
 	flex-direction: column;
 	
 	border-radius: 20px;
-	background-image: url(./img/img-1.png);
+	
 	background-size: cover;
 	margin-right: 25.5px;
 	margin-left: 25.5px;
@@ -1186,6 +1186,11 @@ textarea::placeholder{
 }
 
 /* end contact page*/
+/* hamburge */
+.hamburger {
+    display: none;
+}
+/* end hamburger */
 /* End Header section */
 
 @media only screen and (max-width: 568px) 
@@ -1204,50 +1209,7 @@ textarea::placeholder{
 		
 	
 	}
-	  #header .hamburger {
-		display: none;
-		
-	}
-	#header .hamburger:after {
-		position: absolute;
-		content: '';
-		height: 100%;
-		width: 100%;
-		border-radius: 50%;
-		border: 3px solid white;
-		animation: hamburger_puls 1s ease infinite;
-	}
-	#header .hamburger .bar {
-		height: 2px;
-		width: 30px;
-		position: relative;
-		background-color: white;
-		z-index: -1;
-	}
-	#header .hamburger .bar::after,
-	#header .hamburger .bar::before {
-		content: '';
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		left: 0;
-		background-color: white;
-		transition: .3s ease;
-		transition-property: top, bottom;
-	}
-	#header .hamburger .bar::after {
-		top: 8px;
-	}
-	#header .hamburger .bar::before {
-		bottom: 8px;
-	}
-	#header .hamburger.active .bar::before {
-		bottom: 0;
-	}
-	#header .hamburger.active .bar::after {
-		top: 0;
-	}
-	
+	  
 	/* what wedo*/
 	#header-sec .nav-list ul {
 		display: none;
@@ -1258,45 +1220,7 @@ textarea::placeholder{
 		display: none;
 		
 	}
-	#header-sec .hamburger:after {
-		position: absolute;
-		content: '';
-		height: 100%;
-		width: 100%;
-		border-radius: 50%;
-		border: 3px solid white;
-		animation: hamburger_puls 1s ease infinite;
-	}
-	#header-sec .hamburger .bar {
-		height: 2px;
-		width: 30px;
-		position: relative;
-		background-color: white;
-		z-index: -1;
-	}
-	#header-sec .hamburger .bar::after,
-	#header-sec .hamburger .bar::before {
-		content: '';
-		position: absolute;
-		height: 100%;
-		width: 100%;
-		left: 0;
-		background-color: white;
-		transition: .3s ease;
-		transition-property: top, bottom;
-	}
-	#header-sec .hamburger .bar::after {
-		top: 8px;
-	}
-	#header-sec .hamburger .bar::before {
-		bottom: 8px;
-	}
-	#header-sec .hamburger.active .bar::before {
-		bottom: 0;
-	}
-	#header-sec .hamburger.active .bar::after {
-		top: 0;
-	}
+	
 	/*end what we do header*/
 	/* what we do service */
 	.service-box{
@@ -1479,7 +1403,6 @@ textarea::placeholder{
 		justify-content: center;
 		flex-direction: column;
 		border-radius: 20px;
-		background-image: url(./img/img-1.png);
 		background-size: cover;
 		margin-right: 25.5px;
 		margin-left: 25.5px;
@@ -1913,4 +1836,17 @@ textarea::placeholder{
 }
 
 /* end contact page*/
+/* hamburger */
+.hamburger{
+	display: block !important;
+}
+.explore{
+	margin-right: 0px;
+}
+/* end hamburger */
+}
+@media only screen and (max-width: 375px) {
+	#hero{
+		background-image: url(./img/iPhone7\ Screen\ 375x667.png) ;
+	}
 }
