@@ -347,6 +347,9 @@ margin-right: auto;
 .service-img {
     
 }
+.wbutton a{
+	color: white;
+	}
 #services .service-item p {
 	color: white;
 	text-align: left;
@@ -1055,7 +1058,26 @@ width: 100%;
 	font-weight: 600;
 	display: inline-block;
 	border: 0px solid #ccc;
-	border-radius: 24px;
+	border-radius: 10px;
+	background-color: #F9F9F9;
+	color:rgb(21 206 255 / 100%);
+	min-width: 552px;
+	max-width: 552px;
+	min-height: 74px;
+	max-height: 74px;
+	font-weight: 300;
+	
+	
+}
+.contact-form input[type=email]{
+	width: 100%;
+	padding: 12px 20px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.063rem;
+	font-weight: 600;
+	display: inline-block;
+	border: 0px solid #ccc;
+	border-radius: 10px;
 	background-color: #F9F9F9;
 	color:rgb(21 206 255 / 100%);
 	min-width: 552px;
@@ -1072,7 +1094,7 @@ textarea{
 	margin: 8px 0;
 	display: inline-block;
 	border: 0px solid #ccc;
-	border-radius: 24px;
+	border-radius: 10px;
 	background-color: #F9F9F9;
 	color:rgb(21 206 255 / 100%);
 	min-width: 552px;
@@ -1215,6 +1237,60 @@ section#services{
 	font-family: 'Poppins', sans-serif;
 	font-size: 0.75rem;
 	color:white;
+}
+.contact-detail{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.whatsappbutton .wbutton{
+	margin: 20px;
+    margin-top: 16px;
+    display: inline-block;
+    padding: 19px 46px;
+    background-color: rgb(21, 206, 255);
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    min-width: 278px;
+    max-height: 58px;
+    border-radius: 29px;
+    text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    transition: .3s ease;
+    box-shadow: #000000;
+    transition-property: background-color,color;
+    border-color: transparent;
+    font-weight: 400;
+}
+.whatsappbutton img{
+	padding: 16px 32px;
+	
+}
+.contact-address{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	min-width: 455px;
+	padding-top: 18px;
+}
+.contact-address .addressc{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.contact-address .addressc p{ 
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	padding-top: 14px;
+	padding-bottom: 30px;
+	font-weight: normal;
+
 }
 @media only screen and (max-width: 568px) 
 
@@ -1841,6 +1917,23 @@ section#services{
 	font-weight: 300;
 	
 }
+.contact-form input[type=email]{
+	width: 100%;
+	padding: 12px 20px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.313rem;
+	display: inline-block;
+	border: 0px solid #ccc;
+	border-radius: 24px;
+	background-color: #F9F9F9;
+	color:rgb(21 206 255 / 100%);
+	min-width: 217px;
+	max-width: 217px;
+	min-height: 28px;
+	max-height: 28px;
+	font-weight: 300;
+	
+}
 textarea{
 	width: 100%;
 	padding: 12px 20px;
@@ -1995,6 +2088,68 @@ section#services{
 	margin-top: 100px;
 }
 /* end hamburger */
+.contact-detail{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.whatsappbutton .wbutton{
+	margin: 20px;
+    margin-top: 16px;
+    display: inline-block;
+    padding: 7px 17px;
+    background-color: rgb(21, 206, 255);
+    font-size: 0.438rem;
+    font-weight: bold;
+    color: white;
+    min-width: 129px;
+    max-height: 27px;
+    border-radius: 29px;
+    text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    transition: .3s ease;
+    box-shadow: #000000;
+    transition-property: background-color,color;
+    border-color: transparent;
+    font-weight: 400;
+}
+.whatsappbutton img{
+	padding: 16px 32px;
+	
+}
+.wbutton a{
+color: white;
+}
+.contact-address{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	min-width: 206px;
+	padding-top: 18px;
+}
+.contact-address .addressc{
+	display: flex;
+	flex-direction: column;
+		align-items: center;
+		vertical-align: middle;
+	justify-content: center;
+}
+.contact-address .addressc p{ 
+	text-align: left;
+	font-family: 'Poppins', sans-serif;
+	font-size: 0.438rem;
+	padding-top: 6px;
+	padding-bottom: 19.5px;
+	font-weight: normal;
+	margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+
 }
 @media only screen and (max-width: 375px) {
 	#hero{
