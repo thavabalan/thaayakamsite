@@ -104,7 +104,7 @@ body{
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: crimson;
+	color: rgb(21, 206, 255);
 }
 #header .nav-list ul {
     position: initial;
@@ -170,7 +170,7 @@ body{
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-	background: #b30000; 
+	background: #15CEFF; 
   }
 
 /* End header */
@@ -503,7 +503,8 @@ margin-right: auto;
 }
 .email-text{
 	padding: 62.2px;
-	padding-bottom: 49px;
+	padding-bottom: 90px;
+    padding-top: 90px;
 }
 .email-text h1{
 	font-family: 'Poppins', sans-serif;
@@ -798,7 +799,21 @@ background: linear-gradient(90deg, rgba(65,214,146,1) 0%, rgba(21,206,255,1) 100
 	padding-left:41px;
 	padding-right: 41px;
 	padding-bottom: 53px;
+	text-align: justify;
 	
+}
+.whatsappbutton .wbutton:hover {
+    background-color: transparent;
+		color: rgb(21, 206, 255);
+		border: solid 1px rgb(21, 206, 255);
+}
+.contact-address .addressc:nth-child(2) {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-weight: normal;
 }
 .column p span{
 	font-weight: bold;
@@ -875,7 +890,7 @@ background: linear-gradient(90deg, rgba(65,214,146,1) 0%, rgba(21,206,255,1) 100
 	display: inline-block;
     padding-top: 10px;
 	padding-bottom: 10px;
-	padding-right: 64px;
+	padding-right: 62px;
 	padding-left: 55px; 
     background-color: rgb(21, 206, 255);
     font-size: 0.89rem;
@@ -887,10 +902,17 @@ background: linear-gradient(90deg, rgba(65,214,146,1) 0%, rgba(21,206,255,1) 100
     text-transform: uppercase;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 500;
-	
+	border: solid 1px transparent;
 	transition: .3s ease;
     box-shadow: #000000;
   	transition-property: background-color,color;
+}
+.serviceqoute:hover{
+	
+		background-color: transparent;
+		color: rgb(21, 206, 255);
+		border: solid 1px rgb(21, 206, 255);
+	
 }
 .technology-itemm{
 	display: none;
@@ -908,19 +930,28 @@ background: linear-gradient(90deg, rgba(65,214,146,1) 0%, rgba(21,206,255,1) 100
 	font-family: 'Poppins', sans-serif;
 	color: rgb(21, 206, 255);
 	font-weight: 500;
-	padding: 19px;
+	padding: 43px;
 	
 	
 }
-.content p{
+.content p:nth-child(1){
 	text-align: justify;
 	font-size: 1rem;
 	
 	letter-spacing: 1px;
 	font-family: 'Poppins', sans-serif;
 	color: rgb(62, 62, 62);
-	margin-left: 100px;
-	margin-right: 100px;
+	
+}
+.content p:nth-child(2){
+	text-align: justify;
+	font-size: 1rem;
+	
+	letter-spacing: 1px;
+	font-family: 'Poppins', sans-serif;
+	color: rgb(62, 62, 62);
+	margin-left: 0px;
+	margin-right: 0px;
 }
 .content span{
 text-align: left;
@@ -941,7 +972,7 @@ width: 100%;
 	display: inline-block;
     padding-top: 9px;
 	padding-bottom:11px;
-	padding-left: 55px;
+	padding-left: 53px;
 	padding-right: 64px;
     background-color: rgb(21, 206, 255);
     font-size: 0.95rem;
@@ -953,12 +984,18 @@ width: 100%;
     border-radius: 8px;
     text-transform: uppercase;
     font-family: 'Quicksand', sans-serif;
-	
+	border: solid 0px transparent;
 	transition: .3s ease;
     box-shadow: #000000;
   	transition-property: background-color,color;
 	  margin-left: 33.625px !important;
 	  margin-top: 0% i !important;
+	  border: 1px solid transparent;
+}
+.bottom-button .button:hover{
+	background-color: transparent;
+	color: rgb(21, 206, 255);
+	border: solid 1px rgb(21, 206, 255);
 }
 .network-imgm{
 	display: none;
@@ -967,9 +1004,13 @@ width: 100%;
 	padding-left: 20px;
 }
 .content-box{
-	
+	flex-basis: 48%;
+	margin-right: 35px;
 }
-
+.content-box:nth-child(2){
+	flex-basis: 48%;
+	margin-right: 0px;
+}
 /* end who we are*/
 /* career page*/
 #career .career {
@@ -1036,6 +1077,7 @@ width: 100%;
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	text-align: center;
+	color: #3E3E3E;
 }
 .contact-form{
 	flex: 100%;
@@ -1113,7 +1155,7 @@ textarea::placeholder{
 	font-family: 'Poppins', sans-serif;
 	color:#15CEFF;
 	font-size: 1.063rem;
-	font-weight: 600;
+	font-weight: 300;
 	
 }
 .contact-form .input{
@@ -1187,6 +1229,12 @@ textarea::placeholder{
   	transition-property: background-color,color;
 	border-color:transparent ;
 	font-weight: 500;
+	border: 1px solid transparent;
+}
+.contact-form .contactbutton:hover{
+	background-color: transparent;
+	color: rgb(21, 206, 255);
+	border: solid 1px rgb(21, 206, 255);
 }
 .contact-form form{
 	min-height: 600px;
@@ -1198,9 +1246,9 @@ textarea::placeholder{
 	display: none;
   }
 .uploadimage{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #14C7F6;
-	font-weight: 600;
+	font-weight: 400;
 	font-style: italic;
 
 }  
@@ -1212,7 +1260,9 @@ textarea::placeholder{
 	margin-top: 36px
 	;
 }
-
+.margin {
+    margin-top: 100px;
+}
 /* end contact page*/
 /* hamburge */
 .hamburger {
@@ -1230,7 +1280,7 @@ section#content{
 	margin-top: 100px;
 }
 section#services{
-	margin-top: 100px;
+	
 }
 .Address{
 	padding-bottom: 12px;
@@ -1248,7 +1298,7 @@ section#services{
 	margin: 20px;
     margin-top: 16px;
     display: inline-block;
-    padding: 19px 46px;
+    padding: 10px 46px;
     background-color: rgb(21, 206, 255);
     font-size: 1rem;
     font-weight: bold;
@@ -1264,10 +1314,11 @@ section#services{
     transition-property: background-color,color;
     border-color: transparent;
     font-weight: 400;
+	border: 1px solid transparent;
 }
 .whatsappbutton img{
 	padding: 16px 32px;
-	
+	padding-right: 10px;
 }
 .contact-address{
 	display: flex;
@@ -1292,9 +1343,57 @@ section#services{
 	font-weight: normal;
 
 }
+.wbutton span{
+	font-size: 25px;
+}
+.aboutus{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 875px;
+}
+.mobi_icon{
+	display: none;
+}
 @media only screen and (max-width: 568px) 
 
    {
+	   .mobi_icon{
+		   display: inline-block;
+		   padding-bottom: 20px;
+	   }
+	.content-box {
+		flex-basis: 100%; 
+		margin-right: 0px;
+	}
+	.content-box:nth-child(2) {
+		flex-basis: 100%;
+		margin-right: 0px;
+	}
+	.content p:nth-child(2) {
+		text-align: justify;
+		font-size: 0.75rem;
+		letter-spacing: 1px;
+		font-family: 'Poppins', sans-serif;
+		color: rgb(62, 62, 62);
+		margin-left: 54px;
+		margin-right: 54px;
+	}
+	.content p:nth-child(1) {
+		font-size: 0.75rem;
+	
+	}
+	.pc_img{
+		display: none;
+	}
+	.contact-address .addressc:nth-child(2) {
+		text-align: left;
+		font-family: 'Poppins', sans-serif;
+		font-size: 1rem;
+		padding-top: 50px;
+		padding-bottom: 70px;
+		font-weight: normal;
+	}
 	#header .nav-bar{
 		padding-right: 10px;
 	}   
@@ -1559,8 +1658,8 @@ section#services{
 	display: inline-block;
     padding-top: 12px  ;
 	padding-bottom: 12px  ;
-	padding-right: 29px;
-	padding-left: 22px; 
+	padding-right: 28px;
+	padding-left: 21px; 
     background-color: rgb(21, 206, 255);
     font-size: 0.787rem;
     font-weight: bold;
@@ -1802,8 +1901,8 @@ section#services{
 .bottom-button .button:nth-child(2){
 	
 	
-	padding-left: 22px;
-	padding-right: 29px;
+	padding-left: 21px;
+	padding-right: 28px;
 }
 
 .network-imgm{
@@ -1884,6 +1983,7 @@ section#services{
 	margin-left: 25px;
 	margin-right: 25px;
 	margin-top: 22px;
+	color: #3E3E3E;
 }
 .contact-form{
 	flex: 100%;
@@ -2045,9 +2145,9 @@ textarea::placeholder{
 	display: none;
   }
 .uploadimage{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #14C7F6;
-	font-weight: 300;
+	font-weight: 400;
 	font-style: italic;
 	font-size: 0.313rem;
 
@@ -2098,7 +2198,7 @@ section#services{
 	margin: 20px;
     margin-top: 16px;
     display: inline-block;
-    padding: 7px 17px;
+    padding: 4px 17px;
     background-color: rgb(21, 206, 255);
     font-size: 0.438rem;
     font-weight: bold;
@@ -2118,6 +2218,9 @@ section#services{
 .whatsappbutton img{
 	padding: 16px 32px;
 	
+}
+.wbutton span {
+    font-size: 10px;
 }
 .wbutton a{
 color: white;
@@ -2416,7 +2519,7 @@ and (max-height: 736px)  {
 		word-wrap: normal;
 		padding: 17px 40px;
 		font-weight: 500;
-		margin-top: 70Spx;
+		margin-top: 70px;
 		
 	}
 }

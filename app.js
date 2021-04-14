@@ -19,7 +19,7 @@ document.addEventListener('scroll', () => {
 		header.style.marginTop  = '0px';
 
 	} else {
-		header.style.backgroundColor = 'rgb(0 0 0 / 10%)';
+		header.style.backgroundColor = 'rgba(255, 255, 255, 0.1);';
 		header.style.marginTop  = '0px';
 	}
 });
